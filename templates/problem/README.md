@@ -1,17 +1,53 @@
+
 <!--
-SPDX-FileCopyrightText: 2024 Samuel Carinhas <samuelsantos.c.2001@gmail.com>
+SPDX-FileCopyrightText: 2024 Alexandre Jesus <me@adbjesus.com>
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Problem Name – Truck Scheduling
+<!-- Replace the comment above with your licence information for your problem
+statement. Consider all copyright holders and contributors. -->
 
-Samuel Carinhas, University of Coimbra, Department of Informatics Engineering  
+<!-- According to the copyright and licensing policy of ROAR-NET original
+problem statements contributed to this repository shall be licensed under the
+CC-BY-4.0 licence. In some cases CC-BY-SA-4.0 might be accepted, e.g., if the
+problem is based upon an existing problem licensed under those terms. Please
+provide a clear justification when opening the pull request if the problem is
+not licensed under CC-BY-4.0 -->
+
+<!-- Remove the section below before submitting -->
+
+# Problem template
+
+
+This folder provides a template for problem statements.
+
+Replace the problem statement below according to the instructions within that
+file (and remove this section).
+
+Place any images and figures in the `images` folder.
+
+Place instance data in the `data` folder. The organisation within that folder is
+merely a suggestion and may be adapted according to the problem needs.
+
+Place any support material (e.g., instance generators, solution evaluators,
+solution visualisers) in the `support` folder.
+
+Template follows below.
+
+---
+
+<!-- Remove the section above before submitting -->
+
+# Problem Name – Title
+
+First Author, Some Affiliation, Somewhere in the world  
+Second Author, Some Affiliation, Elsewhere
 
 <!-- Put two empty spaces at the end of each author line except the last for
 proper formatting -->
 
-Copyright 2024 Samuel Carinhas.
+Copyright 2024 ... place copyright holders here.
 
 This document is licensed under XXXX.
 
@@ -20,41 +56,20 @@ consistent with the comment at the beggining of the markdown file -->
 
 ## Introduction
 
-One issue reported by the Port of Sines is the substantial number of truck trips without cargo, referred to as empty trips, due to the lack of optimization. This problem aims to optimize the scheduling of cargo transport from the Port of Sines to any destination, and vice versa, with the goal of minimizing the kilometers traveled by trucks without cargo.
+In this section provide a brief introduction of the problem, possibly including
+its motivation and context. This should be a short (2 or 3 paragraphs)
+high-level description.
 
 ## Task
 
-Given a list of trucks, their availability, and the cargo to be transported, along with a distance matrix, schedule each cargo with a truck and a time slot. The objective is to minimize the number of kilometers traveled by trucks without cargo and to maximize the number of scheduled cargo deliveries.
+Describe the high-level optimisation task in one or two sentences.
 
 ## Detailed description
 
-### Important Definitions:
-
-#### Truck
-
-A truck is characterized by an ID plate, a list of available time slots, and a list of supported cargo types.
-
-#### Timeslot
-
-A time slot is defined by a start date and an end date, indicating when the truck becomes available and when its availability ends. Additionally, it specifies the truck's coordinates at the start of the slot, as well as the location where the truck must be at the end of the slot.
-
-#### Cargo
-
-A cargo is characterized by its type, the date it becomes available for delivery, and the delivery deadline.
-
-### Problem statement
-
-Let $t_n$ be the number of cargos assigned to time slot $t$. $t_{source}$​ and $t_{target}$ represent the starting and ending positions of the time slot, respectively, and $t_{c_i}$ denotes the location of the $i^{th}$ cargo within the slot.
-
-**Objective function:** $\min \sum_{ t \in T_S } {d(t_{source}, t_{c_0}) + \sum_{i=1}^{t_n-1} d(t_{c_{i-1}}, t_c) + d(t_{c_{t_n}}, t_{destination})} + \sum_{ t \in T_S} t_n$
-
-### Constraints
-
-* The total travel time needed to deliver the schedule cargos for a specific slot must be less or equal to the slot deadline.$\sum {time(t_{source}, t_{c_0}) + \sum_{i=1}^{t_n-1} time(t_{c_{i-1}}, t_c) + time(t_{c_{t_n}}, t_{destination}) + \sum_{c \in t_c} time(c)} \leq t_{end} ~~\forall t \in T_S$, where $time(c)$ is the total cargo travel time (from cargo source to cargo destination).
-
-* No cargo can be assigned before its availability and every cargo should be delivered before its deadline $(t_{start} \leq c_{start}) \land (c_{delivery} \leq c_{end}) ~~\forall c \in t_c ~~\forall t \in T_S$, where $t_{start}$ is the starting date for the time slot, $c_{start}$ and $c_{end}$ are the availability and deadline dates for the cargo and $c_{delivery}$ is the scheduled delivery date for the cargo.
-
-* Every cargo type must be supported by the scheduled truck. $c_{type} \in t_{types} ~~\forall c \in t_c ~~\forall t \in T_S$
+Provide a detailed description of the problem in this section. This should
+detail what parameters characterise a problem instance, what characterises a
+solution, how a solution is evaluated (e.g. an objective function), and solution
+feasibility constraints.
 
 ## Instance data file
 
