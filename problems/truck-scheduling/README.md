@@ -50,9 +50,9 @@ Let $t_n$ be the number of cargos assigned to time slot $t$. $t_{source}$​ and
 
 ### Constraints
 
-* The total travel time needed to deliver the schedule cargos for a specific slot must be less or equal to the slot deadline.$\sum {time(t_{source}, t_{c_0}) + \sum_{i=1}^{t_n-1} time(t_{c_{i-1}}, t_c) + time(t_{c_{t_n}}, t_{destination}) + \sum_{c \in t_c} time(c)} \leq t_{end} ~~\forall t \in T_S$, where $time(c)$ is the total cargo travel time (from cargo source to cargo destination).
+* The total travel time needed to deliver the schedule cargos for a specific slot must be less or equal to the slot deadline. $\sum {time(t_{source}, t_{c_0}) + \sum_{i=1}^{t_n-1} time(t_{c_{i-1}}, t_c) + time(t_{c_{t_n}}, t_{destination}) + \sum_{c \in t_c} time(c)} \leq t_{end} ~~\forall t \in T_S$, where $time(c)$ is the total cargo travel time (from cargo source to cargo destination).
 
-* No cargo can be assigned before its availability and every cargo should be delivered before its deadline $(t_{start} \leq c_{start}) \land (c_{delivery} \leq c_{end}) ~~\forall c \in t_c ~~\forall t \in T_S$, where $t_{start}$ is the starting date for the time slot, $c_{start}$ and $c_{end}$ are the availability and deadline dates for the cargo and $c_{delivery}$ is the scheduled delivery date for the cargo.
+* No cargo can be assigned before its availability and every cargo should be delivered before its deadline. $(t_{start} \leq c_{start}) \land (c_{delivery} \leq c_{end}) ~~\forall c \in t_c ~~\forall t \in T_S$, where $t_{start}$ is the starting date for the time slot, $c_{start}$ and $c_{end}$ are the availability and deadline dates for the cargo and $c_{delivery}$ is the scheduled delivery date for the cargo.
 
 * Every cargo type must be supported by the scheduled truck. $c_{type} \in t_{types} ~~\forall c \in t_c ~~\forall t \in T_S$
 
