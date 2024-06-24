@@ -1,0 +1,58 @@
+{
+  "FK-31-DB": {
+    "044978b1-0167-4fe7-8407-247fe9f8df31": [],
+    "dd2c3ad8-8dfc-4cb5-8c70-83c3fb7dafdb": []
+  },
+  "CR-40-DT": {
+    "f4012ed8-b595-47e1-982d-8c8b7fc32b5d": [
+      {
+        "id": "6fccd466-205e-44bb-8289-123999e29700",
+        "service_start": "2024-06-27 20:04:13",
+        "pickup_location": "40.6394111,-8.6652275",
+        "deliver_location": "40.1864329,-8.4186784",
+        "pickup_time": "2024-06-27 20:53:35",
+        "deliver_time": "2024-06-27 21:43:38",
+        "total_kilometers": 72.74594626032084,
+        "total_time": 3003.211536
+      }
+    ],
+    "5a1c3cf6-7ba9-459f-a4b8-f0ef56241895": [],
+    "57dff248-1f7c-4bfb-bdec-6d1706a8fbcb": []
+  },
+  "QR-43-JU": {
+    "94f20d8e-58ad-4e9b-a888-aa939fc48134": [
+      {
+        "id": "51f3a532-3288-464a-b687-3d604b5e03d0",
+        "service_start": "2024-06-29 21:01:00",
+        "pickup_location": "40.1864329,-8.4186784",
+        "deliver_location": "37.9500729,-8.9477003",
+        "pickup_time": "2024-06-29 23:03:08",
+        "deliver_time": "2024-06-30 02:09:33",
+        "total_kilometers": 328.22023772929015,
+        "total_time": 11184.756169
+      },
+      {
+        "id": "640ccee7-9951-4b5a-9283-85ba5e74cd40",
+        "service_start": "2024-06-30 02:09:33",
+        "pickup_location": "38.8339246,-9.2709225",
+        "deliver_location": "40.6881915,-8.5439994",
+        "pickup_time": "2024-06-30 04:06:50",
+        "deliver_time": "2024-06-30 06:27:06",
+        "total_kilometers": 251.52871144910813,
+        "total_time": 8415.491561
+      }
+    ],
+    "e1637101-3e88-47cc-a8de-f078a6419781": [
+      {
+        "id": "123a04bd-6003-42c3-9d42-aee8797bd9dd",
+        "service_start": "2024-06-27 09:01:21",
+        "pickup_location": "40.6980168,-8.4732726",
+        "deliver_location": "37.9500729,-8.9477003",
+        "pickup_time": "2024-06-27 09:01:21",
+        "deliver_time": "2024-06-27 12:34:58",
+        "total_kilometers": 389.61815795646885,
+        "total_time": 12817.344835
+      }
+    ]
+  }
+}

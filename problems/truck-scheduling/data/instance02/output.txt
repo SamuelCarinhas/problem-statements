@@ -1,0 +1,255 @@
+{
+  "GA-13-GD": {
+    "6fe68677-889c-456f-ac82-34c880ee35f3": [],
+    "61e0a401-c267-41d1-8073-309ab7c6283e": []
+  },
+  "BG-51-RF": {
+    "c9966ec0-e98b-41a5-8990-75bb88d3da56": [],
+    "8a27c495-765b-4b50-bddd-7823323871ae": [
+      {
+        "id": "058f2960-4f1f-45a4-9f07-68db23084005",
+        "service_start": "2024-06-30 17:17:45",
+        "pickup_location": "40.6980168,-8.4732726",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-30 17:25:48",
+        "deliver_time": "2024-06-30 17:43:12",
+        "total_kilometers": 25.00403494453083,
+        "total_time": 1043.824877
+      }
+    ],
+    "fab7f563-7fdb-419d-a34b-52d9a5748631": []
+  },
+  "UF-92-QK": {
+    "da891010-82c7-4b1b-a7ed-38ec9bd84b38": [
+      {
+        "id": "c2ecb182-fa61-4318-bb2e-747e3e4ab45c",
+        "service_start": "2024-06-25 11:00:58",
+        "pickup_location": "38.8339246,-9.2709225",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-25 13:24:35",
+        "deliver_time": "2024-06-25 15:46:39",
+        "total_kilometers": 251.26871428151622,
+        "total_time": 8524.198379
+      }
+    ],
+    "29191223-4c2e-4f23-90f4-ad5922b3b876": [
+      {
+        "id": "72a0e818-7caf-4b70-b39c-c41cb2fe4750",
+        "service_start": "2024-06-27 05:01:09",
+        "pickup_location": "40.6980168,-8.4732726",
+        "deliver_location": "40.1864329,-8.4186784",
+        "pickup_time": "2024-06-27 05:09:12",
+        "deliver_time": "2024-06-27 05:59:14",
+        "total_kilometers": 77.11852417004984,
+        "total_time": 3001.721525
+      }
+    ],
+    "342e1f04-df4f-458f-8785-ee69007f767d": [],
+    "e7d6cb29-cb54-486e-9696-06b6c7d7620f": []
+  },
+  "RA-00-HE": {
+    "76164e72-6c4e-400b-939b-e7aa49315d5f": [
+      {
+        "id": "11e531ac-4770-4f93-86ab-321ae31050c3",
+        "service_start": "2024-07-01 17:39:05",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "38.8339246,-9.2709225",
+        "pickup_time": "2024-07-01 17:39:05",
+        "deliver_time": "2024-07-01 19:36:22",
+        "total_kilometers": 178.60074424422754,
+        "total_time": 7037.079648
+      }
+    ],
+    "d9810245-6ff9-4dca-8cb4-d7ac565ff9aa": [
+      {
+        "id": "61d8f3b6-4ee0-4e87-b93b-cdee2f290962",
+        "service_start": "2024-06-26 22:03:53",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "40.6881915,-8.5439994",
+        "pickup_time": "2024-06-26 22:03:53",
+        "deliver_time": "2024-06-27 01:35:27",
+        "total_kilometers": 386.62779248532786,
+        "total_time": 12694.484159
+      }
+    ],
+    "edc392b1-8a9f-40ba-8b0c-e6fbebdcc7b3": []
+  },
+  "KT-28-OU": {
+    "a41b2f63-b0fc-41b3-8280-6e5c0c0f7a50": [],
+    "a7e568ff-a1de-4761-9a87-c96c77445dbb": [],
+    "f1e929d9-4ca3-49c9-8763-5ee7a2f4d3ba": [],
+    "ba087be9-ec75-427c-a17c-d08a0e7a6ad4": [],
+    "e131aba7-1dcb-475b-b8a0-42833f72eaa9": [
+      {
+        "id": "28285813-960d-4c71-8f10-39183aacdcf9",
+        "service_start": "2024-06-26 02:53:22",
+        "pickup_location": "38.8339246,-9.2709225",
+        "deliver_location": "40.1864329,-8.4186784",
+        "pickup_time": "2024-06-26 02:53:22",
+        "deliver_time": "2024-06-26 04:55:30",
+        "total_kilometers": 212.02724647465422,
+        "total_time": 7328.929166
+      }
+    ]
+  },
+  "CY-01-JH": {
+    "2af911b0-867a-4fd2-bfb1-1f91267ba40b": [],
+    "d25d23e0-5984-4423-ab35-276871d680b4": [],
+    "29028540-19f1-4d32-a1d6-22b45b6398c4": [],
+    "99f9dd90-6e6a-4332-b5a7-ba58cd54032e": [
+      {
+        "id": "b260c46a-4829-4245-a32e-092d8edb9ecf",
+        "service_start": "2024-06-25 00:34:14",
+        "pickup_location": "40.1864329,-8.4186784",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-25 01:19:14",
+        "deliver_time": "2024-06-25 02:08:37",
+        "total_kilometers": 70.41871389948099,
+        "total_time": 2962.776529
+      },
+      {
+        "id": "6148ed71-dbf0-4fcd-bb2e-d4750032ffdf",
+        "service_start": "2024-06-25 02:08:37",
+        "pickup_location": "40.1864329,-8.4186784",
+        "deliver_location": "40.6980168,-8.4732726",
+        "pickup_time": "2024-06-25 02:58:40",
+        "deliver_time": "2024-06-25 03:49:25",
+        "total_kilometers": 75.60704574597757,
+        "total_time": 3045.348258
+      }
+    ],
+    "1ff0c412-40a3-451f-b703-7007f22030ae": []
+  },
+  "EE-71-TC": {
+    "59f3ba23-2c3d-4a28-aedb-e73ce82fbf82": [],
+    "6c58a411-d145-43b3-9084-fda46121e87e": [],
+    "a1bb57fe-1aba-4a3f-8f65-3fe4c45418fa": []
+  },
+  "RC-70-VJ": {
+    "dcc828be-1cf7-4920-9052-42f938550ede": [],
+    "7ec2d226-be1e-428b-be57-6af926c18ee6": [
+      {
+        "id": "cbde00db-b8f7-470a-80ab-f27b86c5ec62",
+        "service_start": "2024-06-28 07:39:55",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-28 07:39:55",
+        "deliver_time": "2024-06-28 11:13:51",
+        "total_kilometers": 385.05126699742345,
+        "total_time": 12836.002355
+      }
+    ],
+    "853a6343-4ebb-44bf-a849-75efd87b821d": [],
+    "52cbcb7a-94c4-4d61-a7f5-0a595d0a3db0": [
+      {
+        "id": "7bfbe728-160b-40d7-a80a-9b0c2e5e0e91",
+        "service_start": "2024-06-25 10:07:46",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-25 10:07:46",
+        "deliver_time": "2024-06-25 13:41:42",
+        "total_kilometers": 385.05126699742345,
+        "total_time": 12836.002355
+      }
+    ]
+  },
+  "EL-77-EC": {
+    "ca4aa31c-b584-4165-bc96-a23eb1481b17": [],
+    "27508a05-453b-48bf-bf3d-2c35dc83e0c3": [],
+    "792eb71a-e3d0-4511-9005-ec44f4e349c3": [
+      {
+        "id": "ce404ed0-8108-459f-9b5d-8e6c1f522656",
+        "service_start": "2024-06-27 07:28:10",
+        "pickup_location": "38.8339246,-9.2709225",
+        "deliver_location": "40.1864329,-8.4186784",
+        "pickup_time": "2024-06-27 07:28:10",
+        "deliver_time": "2024-06-27 09:30:18",
+        "total_kilometers": 212.02724647465422,
+        "total_time": 7328.929166
+      }
+    ],
+    "270c5100-050d-41b5-9621-f2445f2acdff": [],
+    "c189c6c4-cfe4-4f24-9476-83dfae708e5f": []
+  },
+  "HJ-27-LS": {
+    "5e46d95e-6c5a-4cb3-83df-1a3b5618f325": [
+      {
+        "id": "b6b127e5-a33d-42e1-8b01-c65c9899b5e5",
+        "service_start": "2024-06-28 13:38:01",
+        "pickup_location": "38.8339246,-9.2709225",
+        "deliver_location": "40.6980168,-8.4732726",
+        "pickup_time": "2024-06-28 13:38:01",
+        "deliver_time": "2024-06-28 16:06:20",
+        "total_kilometers": 261.79539451668467,
+        "total_time": 8899.408146
+      }
+    ],
+    "45d58cc8-d7f1-4f19-bae1-a6694cbd4239": [
+      {
+        "id": "22343fd1-877e-47b0-9d8e-add1e56880c0",
+        "service_start": "2024-06-27 19:22:51",
+        "pickup_location": "40.6980168,-8.4732726",
+        "deliver_location": "40.1864329,-8.4186784",
+        "pickup_time": "2024-06-27 19:41:15",
+        "deliver_time": "2024-06-27 20:31:17",
+        "total_kilometers": 77.11852417004984,
+        "total_time": 3001.721525
+      },
+      {
+        "id": "0ae5675b-ff0e-40c0-9e95-9be7359a2ded",
+        "service_start": "2024-06-27 20:31:17",
+        "pickup_location": "40.1864329,-8.4186784",
+        "deliver_location": "38.8339246,-9.2709225",
+        "pickup_time": "2024-06-27 20:31:17",
+        "deliver_time": "2024-06-27 22:32:43",
+        "total_kilometers": 212.30013847294524,
+        "total_time": 7285.798869
+      },
+      {
+        "id": "e0748240-3448-486a-99e7-02c402a810a0",
+        "service_start": "2024-06-27 22:32:43",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "40.6394111,-8.6652275",
+        "pickup_time": "2024-06-28 00:31:32",
+        "deliver_time": "2024-06-28 04:05:28",
+        "total_kilometers": 385.05126699742345,
+        "total_time": 12836.002355
+      },
+      {
+        "id": "7ff785cb-c336-43b7-9670-a2c484b90e7b",
+        "service_start": "2024-06-28 04:05:28",
+        "pickup_location": "40.6394111,-8.6652275",
+        "deliver_location": "37.9500729,-8.9477003",
+        "pickup_time": "2024-06-28 04:05:28",
+        "deliver_time": "2024-06-28 07:39:07",
+        "total_kilometers": 385.24558004673986,
+        "total_time": 12818.834846
+      }
+    ],
+    "f4162cea-d808-413e-a538-1a6275ab86b9": [],
+    "c48d60ba-2af4-4b25-a146-27d02b97b58b": [
+      {
+        "id": "5b350cde-ac06-43c8-90aa-8127820ef373",
+        "service_start": "2024-06-25 23:56:20",
+        "pickup_location": "40.6881915,-8.5439994",
+        "deliver_location": "38.8339246,-9.2709225",
+        "pickup_time": "2024-06-26 00:06:40",
+        "deliver_time": "2024-06-26 02:30:17",
+        "total_kilometers": 268.02195154527664,
+        "total_time": 8617.027475
+      }
+    ],
+    "9949366e-744b-4b38-b304-da072596f773": [
+      {
+        "id": "f273b20c-6da4-4cbe-89a6-eb769b6304ba",
+        "service_start": "2024-07-01 03:29:06",
+        "pickup_location": "37.9500729,-8.9477003",
+        "deliver_location": "38.8339246,-9.2709225",
+        "pickup_time": "2024-07-01 03:29:06",
+        "deliver_time": "2024-07-01 05:26:23",
+        "total_kilometers": 178.60074424422754,
+        "total_time": 7037.079648
+      }
+    ]
+  }
+}
